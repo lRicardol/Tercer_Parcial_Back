@@ -52,7 +52,11 @@ Se implementaron pruebas unitarias usando JUnit y Mockito para asegurar el corre
 ## Endpoints REST principales
 Método	Endpoint	Descripción
 GET	/especialidades	Lista todas las especialidades
+
 POST	/citas	Crea una nueva cita médica
+
 GET	/citas/{correo}	Citas asociadas a un paciente
+
 GET	/citas/{correo}/estado/{estado}	Historial filtrado por estado
+
 PUT	/citas/{id}/cancelar	Cancela una cita específica
