@@ -42,3 +42,17 @@ Este backend implementa el sistema de gestión de citas médicas para la clínic
 ```
 
 ## Ejecutar el Proyecto
+
+Se implementaron pruebas unitarias usando JUnit y Mockito para asegurar el correcto funcionamiento del codigo
+![Screenshot 2025-05-23 163743.png](imagenes%2FScreenshot%202025-05-23%20163743.png)
+```
+./mvnw test
+```
+
+## Endpoints REST principales
+Método	Endpoint	Descripción
+GET	/especialidades	Lista todas las especialidades
+POST	/citas	Crea una nueva cita médica
+GET	/citas/{correo}	Citas asociadas a un paciente
+GET	/citas/{correo}/estado/{estado}	Historial filtrado por estado
+PUT	/citas/{id}/cancelar	Cancela una cita específica
