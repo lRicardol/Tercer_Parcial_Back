@@ -1,4 +1,4 @@
-package com.cvds.parcial.back_parcial_3;
+package com.cvds.parcial.back_parcial_3.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

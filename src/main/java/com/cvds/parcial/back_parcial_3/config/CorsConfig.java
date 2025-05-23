@@ -1,4 +1,4 @@
-package com.cvds.parcial.back_parcial_3;
+package com.cvds.parcial.back_parcial_3.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

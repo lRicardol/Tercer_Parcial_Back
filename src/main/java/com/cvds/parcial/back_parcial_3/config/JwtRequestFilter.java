@@ -1,4 +1,4 @@
-package com.cvds.parcial.back_parcial_3;
+package com.cvds.parcial.back_parcial_3.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
